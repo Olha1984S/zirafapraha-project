@@ -1,4 +1,4 @@
-# zirafapraha-project
+# Zirafapraha-project
 QA testing zirafapraha-project
 
 # Description
