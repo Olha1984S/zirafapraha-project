@@ -1,49 +1,66 @@
-# Zirafapraha-project
-QA testing zirafapraha-project
+# QA Testing Project – ZOO Website
 
-# Description
-This is a QA testing project created for portfolio purposes.
-The project includes a test plan, manual test cases, and automated tests, bug-reports...
+## Project Overview
 
-# What I did
-Created a test plan
-Prepared test data
-Created manual and automated test cases using Cypress and Playwright
-Find and report bugs
+This repository contains a combination of manual and automated testing for a web application.
 
-# Functional requirements:
-Online ticket purchase.
-Birthday party booking.
-Navigation via the main menu.
-Viewing attractions and promotions.
-Contact forms.
-Gallery and additional sections.
-Responsive rendering across different devices.
+The goal of this project is to demonstrate a full QA workflow including:
+- test case design
+- bug reporting
+- test execution
+- basic automation using different tools
 
-# Non-functional requirements:
-Compatibility (browsers, OS, mobile devices).
-Design and usability.
 
-# Test Environment
-OS: Windows 11, Linux (Ubuntu).
-Browsers: Chrome, Firefox, Edge.
-Mobile devices: Android.
+## Testing Scope
 
-# Test Artifacts
-Test Plan (Word document)
-Test Cases (Word document with screenshots)
-Bug reports (Word document with screenshots)
-Performance Testing Report (Word document)
-Test Case and Bug Report Overview (Word document)
-Test Data for Form (Word document)
-Automated tests (Cypress, Playwright)
+The following areas were tested:
 
-# Tools
-Manual testing
-Automation: Playwright, Cypress.
-API and manual testing: Postman.
-Documentation and bug tracking: Jira, TestRail.
-Equipment: PC, mobile devices, emulators.
+- Website navigation
+- UI elements and layout
+- Links and redirections
+- Form validation
+- Basic usability scenarios
 
-# Author
-Olha Shynkina
+
+## Automation Testing
+
+Automation tests are implemented using different tools:
+
+- Playwright (JavaScript)
+- Cypress
+- Selenium (C#)
+
+Automation covers basic user scenarios such as:
+- navigation
+- UI interactions
+- functional checks
+
+
+## Project Structure
+
+- manual/ – test cases, bug reports, and test data
+- Testing_in_Playwright/ – Playwright automation tests
+- Testing_in_Cypress/ – Cypress automation tests
+- FirstProjectTestProject/ – Selenium C# tests
+
+
+## Testing Types
+
+- Manual testing
+- Functional testing
+- UI testing
+- Exploratory testing
+- Basic automation testing
+
+
+## Results
+
+- Created multiple test cases  
+- Identified various UI and functional issues  
+- Implemented automated tests using modern tools  
+
+
+## Author
+
+Olha Shynkina  
+Junior QA Engineer
